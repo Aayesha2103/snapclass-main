@@ -32,12 +32,16 @@ def style_background_dashboard():
 def style_base_layout():
     st.markdown("""
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-            /*Hide Streamlit top bar */
+        /*  Hide Streamlit top bar */
+
+
             #MainMenu, footer, header {
                 visibility: hidden;
+
+
             }
 
             .block-container {
@@ -67,7 +71,7 @@ def style_base_layout():
 
             button{
                 border-radius: 1.5rem !important;
-                background: #5865F2  !important;
+                background-color: #5865F2  !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
@@ -77,7 +81,7 @@ def style_base_layout():
 
             button[kind="secondary"]{
                 border-radius: 1.5rem !important;
-                background: #EB459E  !important;
+                background-color: #EB459E  !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
@@ -86,7 +90,7 @@ def style_base_layout():
 
             button[kind="tertiary"]{
                 border-radius: 1.5rem !important;
-                background: black !important;
+                background-color: black !important;
                 color: white !important;
                 padding: 10px 20px !important;
                 border: none !important;
