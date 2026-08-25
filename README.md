@@ -11,6 +11,10 @@
   </p>
 
   <p align="center">
+    <a href="[YOUR-VERCEL-LANDING-PAGE-URL](https://sc-landing-page-5zcx0j33w-aayesha-singh.vercel.app/)">
+    🌐 Landing Page
+    </a>
+    ·
     <a href="https://snapclass-main-2ldavrzrff4rtafhtz3xii.streamlit.app/">
       🚀 Live Application
     </a>
